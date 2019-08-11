@@ -6,7 +6,6 @@
 
 > For developers:
 
-Use: $this->getServer()->getPluginManager()->getPlugin("Economy")->addMoney($player, int <count>) so that add money in player.
-Use: $this->getServer()->getPluginManager()->getPlugin("Economy")->remMoney($player, int <count>) so that reduce money in player.
+Use: $this->getServer()->getPluginManager()->getPlugin("Economy")->addMoney($player, int <count>) so that add money in player, or usee function remMoney($player, int <count>).
 
 > Download! Updates in soon...
