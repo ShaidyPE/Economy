@@ -1,1 +1,1 @@
-Economy for your server, download!
+Economy for your server, soon.. (in developing)
