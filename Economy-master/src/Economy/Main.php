@@ -182,7 +182,7 @@ class Main extends PluginBase implements Listener
 				}
 				$target = $this->getServer()->getPlayer($data[0]);
 				if(!is_null($target)){
-				if($this->getMoney($target) <= $data[1]){
+				if($this->getMoney($target) >= $data[1]){
 					$this->remMoney($player, $data[1]);
 					$player->sendMessage(TextFormat::GRAY ."You successful reduced ". TextFormat::GREEN . $data[1] ."$". TextFormat::GRAY ." in player ". TextFormat::AQUA . $target->getName());
 					$target->sendMessage(TextFormat::GRAY ."Player ". TextFormat::AQUA . $player->getName() . TextFormat::GRAY ." reduced you money is ". TextFormat::GREEN . $data[1] ."$");
