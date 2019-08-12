@@ -6,6 +6,6 @@
 
 > For developers:
 
-Use function addMoney($player, int <count>) so that add money in player, or use function remMoney($player, int <count>) so that reduce money
+Use function addMoney($player, int amount) so that add money in player, or use function remMoney($player, int amount) so that reduce money
 
 > Download! Updates in soon...
